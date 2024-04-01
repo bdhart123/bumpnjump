@@ -1,0 +1,36 @@
+{
+    "name": "BumpnJump",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "arcade-background-scroll": "github:microsoft/arcade-background-scroll#6cfbf925b9a4d5ddf3e1078e6cf6ca6a1aebb301",
+        "arcade-tile-util": "github:microsoft/arcade-tile-util#v1.2.0",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0",
+        "controller": "*",
+        "arcade-minimap": "github:microsoft/arcade-minimap#v0.6.1",
+        "Sprite Grid": "github:microsoft/arcade-grid#v1.3.0",
+        "arcade-sprite-data": "github:microsoft/arcade-sprite-data#v0.2.1",
+        "radio-broadcast": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.12.49",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
